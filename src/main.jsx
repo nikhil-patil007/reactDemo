@@ -1,11 +1,11 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
-import LoaderContext from './context/LinearProgressContext/LoaderContext.jsx'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
+import "./index.css";
+import LoaderState from "./context/LinearProgressContext/LoaderState.jsx";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-    <LoaderContext>
-      <App />
-    </LoaderContext>
-)
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <LoaderState>
+    <App />
+  </LoaderState>
+);
